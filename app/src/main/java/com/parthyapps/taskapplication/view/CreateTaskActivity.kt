@@ -1,10 +1,10 @@
 package com.parthyapps.taskapplication.view
 
 import android.Manifest.permission.READ_EXTERNAL_STORAGE
-import android.R.attr
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
@@ -14,9 +14,6 @@ import com.parthyapps.taskapplication.R
 import com.parthyapps.taskapplication.database.TaskRecord
 import com.parthyapps.taskapplication.databinding.ActivityCreateTaskBinding
 import com.terentiev.notes.utils.Constants.INTENT_OBJECT
-import android.graphics.Bitmap
-
-import android.R.attr.data
 import java.io.ByteArrayOutputStream
 
 
