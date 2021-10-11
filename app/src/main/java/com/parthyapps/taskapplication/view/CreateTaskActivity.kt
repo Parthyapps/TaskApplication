@@ -113,9 +113,7 @@ class CreateTaskActivity : AppCompatActivity() {
 
             selectedImageUri = data!!.data!!
             binding.image.setImageURI(selectedImageUri)
-
             val theImage = data.extras!!.get("data") as Bitmap
-
             val stream = ByteArrayOutputStream()
             theImage.compress(Bitmap.CompressFormat.PNG, 100, stream)
             val byteArray: ByteArray = stream.toByteArray()
